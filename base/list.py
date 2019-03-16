@@ -29,3 +29,10 @@ print(3 not in [1,2,3,4,5,6]);
 # len() 长度
 # max() 最大值
 # min() 最小值
+
+
+# 编码
+# ascii编码
+print(ord('e'));
+print(ord('w'));
+print(ord(' '));

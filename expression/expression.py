@@ -4,10 +4,22 @@
 
 # 表达式优先级
 # **同级运算符之间也有优先级
-# 如and > or
+# 如not > and > or
 
-a=1
-b=2
-c=3
-d=4
+a = 1
+b = 2
+c = 3
+d = 4
 print(b or c and d)
+
+
+a = 1
+b = 2
+c = 2
+print(not a or b + 2 == c)
+# 正确的运算顺序
+print((not a) or ((b + 2) == c))
+
+
+print(not (a or b) + 2 == c)
+

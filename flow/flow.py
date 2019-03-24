@@ -54,11 +54,11 @@ else:
 
 # for target_list in expression_list:
 #     pass
-a = [1, 2, 3, 4]
-for x in a:
+b = [1, 2, 3, 4]
+for x in b:
     print(x)
 
-for x in a:
+for x in b:
     # 不换行，默认为'\n'
     print(x, end=",")
 
@@ -96,13 +96,13 @@ for x in range(0, 10, 2):
 
 
 # 面试题，使用最少3种方式，打印出1,3,5,7
-a = [1, 2, 3, 4, 5, 6, 7, 8]
-for x in range(0, len(a), 2):
-    print(a[x], end=",")
+c = [1, 2, 3, 4, 5, 6, 7, 8]
+for x in range(0, len(c), 2):
+    print(c[x], end=",")
 
-for x in a:
+for x in c:
     if x % 2 != 0:
         print(x, end=",")
 
-print(a[0 : len(a) : 2], end=",")
+print(c[0 : len(a) : 2], end=",")
 

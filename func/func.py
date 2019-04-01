@@ -121,5 +121,5 @@ def city_temp(**param):
 
 city_temp(sz='28c', gz='30c', sh='15c')
 
-a={"a":"12","b":"23"}
+a = {"a": "12", "b": "23"}
 city_temp(**a)

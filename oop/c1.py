@@ -33,8 +33,12 @@ class Student():
 # print(a)
 # print(type(a))
 
-student = Student('zsq', 18)
-print(student.name)
+student1 = Student('zsq', 18)
+print(student1.name)
 student2 = Student('sanchez', 19)
 print(student2.name)
 print(Student.name)
+
+
+print(student1.__dict__)
+print(Student.__dict__)
